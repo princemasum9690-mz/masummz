@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+}
+
+/* Sidebar Container */
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #1e293b;
+  border-right: 1px solid #334155;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Profile Section */
+.profile-section {
+  text-align: center;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0f172a;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.role {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #94a3b8;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #f8fafc;
+  background-color: #334155;
+}
+
+.nav-item.active {
+  color: #38bdf8;
+  background-color: rgba(56, 189, 248, 0.1);
+  border-left: 3px solid #38bdf8;
+}
+
+/* Footer / Socials */
+.sidebar-footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  border-top: 1px solid #334155;
+  padding-top: 1.5rem;
+}
+
+.sidebar-footer a {
+  text-decoration: none;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.sidebar-footer a:hover {
+  color: #38bdf8;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+}
