@@ -1,19 +1,115 @@
-<aside class="sidebar">
-  <div class="profile-section">
-    <div class="avatar">MM</div>
-    <h2 class="name">Masum Mz</h2>
-    <p class="role">Frontend Developer</p>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masum Mz | Video Editor & Graphic Designer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-  <nav class="nav-links">
-    <a href="#about" class="nav-item active">About</a>
-    <a href="#skills" class="nav-item">Skills</a>
-    <a href="#projects" class="nav-item">Projects</a>
-    <a href="#contact" class="nav-item">Contact</a>
-  </nav>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-symbol">MZ</span>
+      <div class="logo-text">
+        <span class="brand-name">Masum Mz</span>
+        <span class="brand-tag">Video Editor & Graphic Designer</span>
+      </div>
+    </div>
 
-  <div class="sidebar-footer">
-    <a href="https://github.com/princemasum9690-mz" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a href="#linkedin">LinkedIn</a>
-  </div>
-</aside>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="hire-btn">Hire Me <i class="fa-solid fa-paper-plane"></i></a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <span class="cursive-sub">Engaging</span>
+      <h1 class="hero-title">
+        VIDEOS & DESIGNS<br>
+        <span class="highlight">THAT CONVERT</span><br>
+        <span class="sub-badge">INTO SALES</span>
+      </h1>
+      <p class="hero-desc">
+        I create engaging videos and impactful designs that help creators and brands grow, connect with their audience, and achieve real results.
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <div class="glow-circle"></div>
+      <img src="your-cutout-photo.png" alt="Masum Mz" class="hero-img">
+      
+      <!-- Software Icons -->
+      <img src="https://cdn.worldvectorlogo.com/logos/adobe-premiere-pro-cc.svg" class="float-icon icon-pr" alt="Premiere Pro">
+      <img src="https://cdn.worldvectorlogo.com/logos/adobe-after-effects-cc.svg" class="float-icon icon-ae" alt="After Effects">
+      <img src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg" class="float-icon icon-ps" alt="Photoshop">
+      <img src="https://cdn.worldvectorlogo.com/logos/adobe-illustrator-cc.svg" class="float-icon icon-ai" alt="Illustrator">
+      <img src="https://cdn.worldvectorlogo.com/logos/davinci-resolve-12.svg" class="float-icon icon-dv" alt="DaVinci Resolve">
+      <img src="https://assets.stickpng.com/images/62bf1f27e57c6b904eb2023d.png" class="float-icon icon-capcut" alt="CapCut">
+    </div>
+  </section>
+
+  <!-- Content Showcase Section -->
+  <section class="bottom-showcase">
+    <!-- About Card -->
+    <div class="card about-card" id="about">
+      <div class="about-info">
+        <span class="card-badge">ABOUT ME</span>
+        <h2>Creative Mind.<br><span class="white-text">Details Focused.</span></h2>
+        <p>
+          I'm Masum Mz, a passionate Video Editor & Graphic Designer dedicated to creating content that captures attention and delivers results. I help creators, businesses, and brands transform their ideas into engaging videos and visually compelling designs that leave a lasting impression.
+        </p>
+        <a href="#about" class="outline-btn">More About Me <i class="fa-solid fa-user"></i></a>
+      </div>
+      <div class="about-img-box">
+        <img src="your-portrait.jpg" alt="Masum Mz Portrait">
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services-container" id="services">
+      <div class="services-header">
+        <span class="card-badge">SERVICES</span>
+        <h2>What I Do</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-box">
+          <i class="fa-solid fa-film service-icon"></i>
+          <h3>Video Editing</h3>
+          <p>YouTube videos, podcasts, interviews, promo content and more.</p>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-solid fa-clapperboard service-icon"></i>
+          <h3>Reels & Shorts</h3>
+          <p>Engaging short-form content for every platform.</p>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-solid fa-wand-magic-sparkles service-icon"></i>
+          <h3>Motion Graphics</h3>
+          <p>Creative animations, logo reveals & visual effects.</p>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-solid fa-image service-icon"></i>
+          <h3>Thumbnail Design</h3>
+          <p>Eye-catching thumbnails that boost your CTR.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
