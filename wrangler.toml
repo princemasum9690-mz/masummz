@@ -1,0 +1,10 @@
+name = "masummz"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "."
+
+# D1 Database Binding
+# In Pages Dashboard: Settings -> Functions -> D1 database bindings -> Variable name: DB
+[[d1_databases]]
+binding = "DB"
+database_name = "masummz-db"
+database_id = "67e1d5c0-1f6e-4818-b5e3-cbec3b720ad1"
